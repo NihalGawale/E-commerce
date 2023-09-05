@@ -6,8 +6,6 @@ const connection = () => {
         console.log("Connection with database is established");
     }).then((data) => {
         console.log(`Mongodb connected with server`);
-    }).catch((error) => {
-        console.log(error);
     })
 }
 
